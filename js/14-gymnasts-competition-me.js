@@ -3,6 +3,9 @@
 const dTotal = 44 + 23 + 71;
 const kTotal = 65 + 54 + 49;
 
+//const calcAverage = (a, b, c) => ((a + b + c) / 3);
+
+
 const calcAverage = (scoreDolphins,  scoreKoalas) => {
     const dAverage = scoreDolphins/3;
     const kAverage = scoreKoalas/3;
