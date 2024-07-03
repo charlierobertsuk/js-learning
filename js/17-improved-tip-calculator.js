@@ -1,4 +1,4 @@
-`strict mode`
+`strict mode`;
 
 const bills = [125, 555, 44];
 const totals = [];
