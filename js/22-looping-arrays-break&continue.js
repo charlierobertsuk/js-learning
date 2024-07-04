@@ -1,6 +1,6 @@
 `strict mode`;
 
-const charlieArray = [
+const charlie = [
     `Charlie`,
     `Roberts`,
     2024 - 2007,
@@ -8,6 +8,10 @@ const charlieArray = [
     [`Mich`, `Ellie`, `Jeremy`]
 ];
 
-for (let i = 0; ; i+=1) {
-    console.log(charlieArray[0])
+const types = [];
+
+
+for (let i = 0; i < charlie.length; i++) {
+    types[i] = typeof charlie[i];
+    console.log(`${charlie[i]} is a ${types[i]}`);
 }
