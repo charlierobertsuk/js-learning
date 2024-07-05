@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 //function expression
 const calcAge1 = function (birthYear) {
     return 2024 - birthYear;

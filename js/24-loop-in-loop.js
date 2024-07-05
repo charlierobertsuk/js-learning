@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 
 console.log(`\n--- LOOP IN A LOOP ---\n `);
 for (let exercise = 1; exercise < 4; exercise++) {

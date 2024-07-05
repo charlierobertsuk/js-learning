@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 
 /* 
 console.log(`Lifting weights repitition 1`);

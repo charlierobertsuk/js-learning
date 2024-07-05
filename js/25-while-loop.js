@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 
 let repeat = 1;
 console.log(`\n--- REPEAT USING WHILE LOOP ---\n `);

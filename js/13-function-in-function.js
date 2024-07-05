@@ -1,7 +1,7 @@
 // alt up and down to move lines of code
 // ctrl D - selects all the word below that is identicle so all can be edited
 
-`strict mode`;
+'use strict';
 
 function cutFriut (fruit) {
     return fruit * 9;

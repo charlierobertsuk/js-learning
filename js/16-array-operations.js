@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 
 const friends= [`Mich`, `Ellie`, `Jeremy`];
 const newLength = friends.push(`Jade`); // Adds `Jade` to the end of the array

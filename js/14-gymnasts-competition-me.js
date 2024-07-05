@@ -1,4 +1,4 @@
-`strict mode`;
+'use strict';
 
 const dTotal = 44 + 23 + 71;
 const kTotal = 65 + 54 + 49;
