@@ -18,12 +18,12 @@ console.log(appleJuice);
 console.log(fruitProcessor(0, 2, 0, 0));
 console.log(fruitProcessor(0, 1, 8, 0));
 
-const smoothie = fruitProcessor(133, 2, 4, 3)
+const smoothie = fruitProcessor(10, 2, 1, 3)
 console.log(`Smoothie: ${smoothie}`)
 
 
 
-
+/* 
 function calcAge1(birthYear) {
     const age = 2024 - birthYear;
     return age;
@@ -48,3 +48,4 @@ console.log(calcAge1(2007));
 console.log(calcAge2(2007));
 console.log(calcAge3);
 console.log(calcAge3(2007));
+ */
