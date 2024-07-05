@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* 
 console.log(`Lifting weights repitition 1`);
@@ -14,9 +14,8 @@ console.log(`Lifting weights repitition 10`);
 
  */
 
-
 // the for loop keeps running while condition is true
 // ++ is + 1
 for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Lifting weights repitition ${rep}`);
+  console.log(`Lifting weights repitition ${rep}`);
 }

@@ -1,10 +1,10 @@
 //use strict shows errors in the terminal that may be normaly looked over
-'use strict';
+"use strict";
 let hasDriversLicense = false;
-const passTest = true; 
- 
+const passTest = true;
+
 if (passTest) hasDriverLicense = true; //variable is driver instead of drivers
-if (hasDriversLicense) console.log('I can drive!');
+if (hasDriversLicense) console.log("I can drive!");
 
 // with strict mode enabled, it finds that hasDriverLicence is not defined
 

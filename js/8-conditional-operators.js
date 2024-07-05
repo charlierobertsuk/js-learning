@@ -2,7 +2,7 @@
 
 const age = 18;
 
-age >= 18 ? console.log("Has valid ID") : console.log ("No valid ID");
+age >= 18 ? console.log("Has valid ID") : console.log("No valid ID");
 
 // this is a super teeny tiny if else statement
 
@@ -13,9 +13,9 @@ console.log(conditionalValidID);
 
 let ifValidID;
 if (age >= 18) {
-    ifValidID = "Has valid ID";
+  ifValidID = "Has valid ID";
 } else {
-    ifValidID = "No valid ID";
+  ifValidID = "No valid ID";
 }
 console.log(ifValidID);
 

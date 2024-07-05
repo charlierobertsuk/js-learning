@@ -1,7 +1,6 @@
-'use strict';
+"use strict";
 
-
-const friends= [`Mich`, `Ellie`, `Jeremy`];
+const friends = [`Mich`, `Ellie`, `Jeremy`];
 console.log(friends);
 console.log(friends.length);
 console.log(friends[friends.length - 1]);
