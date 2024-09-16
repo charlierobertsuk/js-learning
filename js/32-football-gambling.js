@@ -13,7 +13,6 @@ Football betting app!
 
 TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Then, call the function again with players from game.scored
 */
-
 const game = {
   team1: "Bayern Munich",
   team2: "Borrussia Dortmund",
@@ -66,7 +65,7 @@ const {
 } = game;
 
 const printGoals = function (...players) {
-  console.log(players);
+  console.log(...players);
   console.log(`${players.length} goals were scored`);
 };
 
@@ -76,4 +75,16 @@ printGoals(...game.scored);
 team1 < team2 && console.log("Team 1 is more likely to win"); // team1 > team2 is truey then short circuit to print
 team1 > team2 && console.log("Team 2 is more likely to win"); // team1 < team2 is truey then print and if they are the same don't print at all
 
-console.log();
+const scoreEntries = Object.entries(game.scored);
+const oddsEntries = Object.entries(game.odds);
+
+for (const [key, playerName] of scoreEntries) {
+  console.log(`Goal ${key} - ${playerName}`);
+}
+
+console.log(...oddsEntries);
+
+// NOTE: Calculate the average!! task 2
+for (const [, oddsNum] of oddsEntries) {
+  console.log(oddsNum);
+}
