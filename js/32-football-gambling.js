@@ -85,6 +85,16 @@ for (const [key, playerName] of scoreEntries) {
 console.log(...oddsEntries);
 
 // NOTE: Calculate the average!! task 2
-for (const [, oddsNum] of oddsEntries) {
-  console.log(oddsNum);
+
+const odds = Object.values(game.odds);
+let average = 0;
+for (const odd of odds) {
+  average += odd;
+}
+average /= odds.length;
+console.log(average);
+
+for (const [team, odd] of Object.entries(game.odds)) {
+  const teamStr = team === `x` ? `draw` : `victory ${game[team]}`;
+  console.log(`Odd of ${teamStr}: ${odd}`);
 }
