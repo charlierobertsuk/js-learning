@@ -10,8 +10,15 @@ const upperFirstWord = function (str) {
 // High Order Function
 const transformer = function (str, fn) {
   console.log(`Original string: ${str}`);
-
   console.log(`Transformed string: ${fn(str)}`);
+  console.log(`Transformed by: ${fn.name}`);
 };
 
 transformer(`JavaScript is the best!`, upperFirstWord);
+transformer(`JavaScript is the best!`, oneWord);
+
+const personAlert = function (str, num) {
+  console.log(`${num}. ${str}`);
+};
+
+["Charlie", "Harry", "Kyle", "Brooke", "Darren"].forEach(personAlert);
